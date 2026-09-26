@@ -1,0 +1,14 @@
+Level 4 Final Test Results
+==================================================
+Checkpoint: outputs/train_weighted_loss/best_unet_weighted.pth
+Input Mode: RGB -> L -> Background Normalization -> Document Enhancement
+Test Original Pairs: 242
+Test Patches: 1210
+Difference Threshold: 0.1
+
+Global L1: 0.032711
+Global MSE: 0.016915
+Changed-Region L1: 0.150156
+Changed Pixel Ratio: 10.11%
+PSNR: 20.73 dB
+SSIM: 0.8770

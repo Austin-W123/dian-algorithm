@@ -1,3 +1,15 @@
+# Level 1 dataset
 level1_mlp/data/
+
+# Python cache
 __pycache__/
 *.pyc
+
+# Level 4 local dataset
+level4_unet/data/
+
+# Ignore Level 4 experiment checkpoints
+level4_unet/outputs/**/*.pth
+
+# Keep the final Level 4 checkpoint
+!level4_unet/outputs/train_weighted_loss/best_unet_weighted.pth

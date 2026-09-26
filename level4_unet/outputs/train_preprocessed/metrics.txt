@@ -1,0 +1,19 @@
+Document-Enhanced U-Net Experiment
+============================================================
+Input: RGB -> L -> Background Normalization -> Document Enhancement
+Blur Radius: 15
+Loss: L1
+Patch Size: 256
+Batch Size: 8
+Learning Rate: 0.001
+Epochs: 5
+
+Epoch 1: Train L1=0.086446, Val L1=0.044420, PSNR=20.81, SSIM=0.9017
+Epoch 2: Train L1=0.036449, Val L1=0.031802, PSNR=21.43, SSIM=0.9156
+Epoch 3: Train L1=0.032489, Val L1=0.030015, PSNR=21.70, SSIM=0.9202
+Epoch 4: Train L1=0.031097, Val L1=0.031157, PSNR=22.00, SSIM=0.9177
+Epoch 5: Train L1=0.030465, Val L1=0.030314, PSNR=21.90, SSIM=0.9152
+
+Best Epoch: 3
+Best Validation L1: 0.030015
+Total Training Time: 1300.94s
